@@ -1,0 +1,15 @@
+name: 'OVH DNS'
+description: 'Apply a DNS zone'
+inputs:
+  zone-file:
+    description: 'Zone to apply'
+    required: true
+  zone-name:
+    description: 'Domain name where to apply the zone file'
+    required: true
+outputs:
+  response:
+    description: 'The response of the server'
+runs:
+  using: 'node16'
+  main: 'index.js'
