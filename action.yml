@@ -3,7 +3,7 @@ author: Pierre Prinetti
 description: 'Import a DNS zone BIND file to the OVH API.'
 branding:
   icon: align-left
-  color: green
+  color: blue
 inputs:
   zone-file:
     description: 'Zone file to apply'
