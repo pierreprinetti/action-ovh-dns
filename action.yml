@@ -1,8 +1,12 @@
 name: 'OVH DNS'
-description: 'Apply a DNS zone'
+author: Pierre Prinetti
+description: 'Import a DNS zone BIND file to the OVH API.'
+branding:
+  icon: align-left
+  color: green
 inputs:
   zone-file:
-    description: 'Zone to apply'
+    description: 'Zone file to apply'
     required: true
   zone-name:
     description: 'Domain name where to apply the zone file'
