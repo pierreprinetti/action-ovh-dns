@@ -46,7 +46,7 @@ The API server response. Will likely be in this form:
 ## Example usage
 
 ```yaml
-uses: pierreprinetti/action-ovh-dns@main
+uses: pierreprinetti/action-ovh-dns-import@main
 env:
   OVH_APP_KEY: ${{ secrets.OVH_APP_KEY }}
   OVH_APP_SECRET: ${{ secrets.OVH_APP_SECRET }}
