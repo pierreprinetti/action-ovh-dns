@@ -1,4 +1,4 @@
-name: 'OVH DNS'
+name: 'OVH DNS zone import'
 author: Pierre Prinetti
 description: 'Import a DNS zone BIND file to the OVH API.'
 branding:
