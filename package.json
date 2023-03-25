@@ -1,6 +1,6 @@
 {
-  "name": "action-ovh-dns",
-  "version": "1.0.0",
+  "name": "action-ovh-dns-import",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "type": "module",
